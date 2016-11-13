@@ -21,8 +21,12 @@ function initializeClock(id, endtime) {
   function updateClock() {
     var t = getTimeRemaining(endtime);
 
-    minutesSpan.innerHTML = ('' + t.minutes).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if(t.minutes == 0 && t.seconds < 30){
+      document.getElementById('clockdiv').style.color = "FF6F00";
+    }
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
