@@ -1,6 +1,8 @@
 LavaLab Countdown
 =================
 
+<img width="1920" alt="countdown" src="https://cloud.githubusercontent.com/assets/7699842/20633695/4729fa78-b2fe-11e6-8fdb-3f0627725e0b.png">
+
 ###Why
 A great tradition in LavaLab is limiting our pitches to three minutes and having our audience applaud promptly at that time to ensure that our teams wrap it up.
 
