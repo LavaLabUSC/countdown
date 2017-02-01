@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 3 * 60 * 1000);
+var deadline = new Date(Date.parse(new Date()) + 2 * 60 * 1000);
 initializeClock('clockdiv', deadline);
